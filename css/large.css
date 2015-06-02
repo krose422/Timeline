@@ -1,0 +1,72 @@
+body {
+  min-width: 980px; }
+
+.container {
+  padding-top: 25px;
+  width: 905px;
+  margin: auto; }
+
+.all {
+  position: relative; }
+
+.all::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 133px;
+  height: 100%;
+  width: 9px;
+  background: #B1DBF5; }
+
+.main {
+  width: 910px;
+  overflow: hidden;
+  margin-top: 15px;
+  position: relative; }
+
+.top {
+  display: inline-block;
+  float: left; }
+  .top .timestamp {
+    margin-right: 10px; }
+    .top .timestamp .time {
+      font-size: 2.5em;
+      overflow: visible;
+      margin: 0px; }
+    .top .timestamp .date {
+      text-align: right;
+      margin-top: 5px; }
+  .top .circleicon {
+    margin-top: 0; }
+
+.maincontent {
+  display: inline-block;
+  float: right;
+  width: 705px;
+  padding-right: 0px;
+  clear: none;
+  position: none; }
+  .maincontent .triangle {
+    content: " ";
+    position: absolute;
+    left: 47px;
+    top: 97px;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 10px 10px 0px;
+    border-color: transparent #3F96C7 transparent transparent;
+    position: absolute;
+    top: 15px;
+    left: -10px; }
+  .maincontent .content p {
+    line-height: 1.5; }
+
+.main:hover .maincontent {
+  background-color: #72C1EA; }
+
+.main:hover .triangle {
+  border-color: transparent #72C1EA transparent transparent; }
+
+.main:hover .time {
+  color: #72C1EA; }
