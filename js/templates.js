@@ -2,13 +2,13 @@ this["template"] = this["template"] || {};
 this["template"]["example"] = Handlebars.template({"1":function(depth0,helpers,partials,data) {
     var helper, alias1=helpers.helperMissing, alias2="function", alias3=this.escapeExpression;
 
-  return "\n<div class=\"border\"></div>\n<div class=\"main\">\n<div class=\"top\">\n\n  <div class=\"timestamp\">\n    <p class=\"date\">"
+  return "\n<div class=\"main\">\n<div class=\"top\">\n\n  <div class=\"timestamp\">\n    <p class=\"date\">"
     + alias3(((helper = (helper = helpers.date || (depth0 != null ? depth0.date : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"date","hash":{},"data":data}) : helper)))
     + "</p>\n    <p class=\"time\">"
     + alias3(((helper = (helper = helpers.times || (depth0 != null ? depth0.times : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"times","hash":{},"data":data}) : helper)))
-    + "</p>\n  </div>\n\n  <div class=\"circleicon\">\n  <div class=\"circletwo\">\n    <div class=\"circleone\">\n      <div class=\"icon\">\n        <i class=\"fa "
+    + "</p>\n  </div>\n\n  <div class=\"circleicon\">\n  <div class=\"circletwo\">\n    <div class=\"circleone\">\n      <i class=\"fa "
     + alias3(((helper = (helper = helpers.icon || (depth0 != null ? depth0.icon : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"icon","hash":{},"data":data}) : helper)))
-    + "\"></i>\n      </div>\n    </div>\n  </div>\n  </div>\n\n</div>\n\n\n<div class=\"maincontent\">\n  <div class=\"title\">\n  <div class=\"triangle\"></div>\n    <h3>"
+    + "\"></i>\n    </div>\n  </div>\n  </div>\n\n</div>\n\n\n<div class=\"maincontent\">\n  <div class=\"title\">\n  <div class=\"triangle\"></div>\n    <h3>"
     + alias3(((helper = (helper = helpers.title || (depth0 != null ? depth0.title : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"title","hash":{},"data":data}) : helper)))
     + "</h3>\n  </div>\n\n  <div class=\"content\">\n    <p>"
     + alias3(((helper = (helper = helpers.content || (depth0 != null ? depth0.content : depth0)) != null ? helper : alias1),(typeof helper === alias2 ? helper.call(depth0,{"name":"content","hash":{},"data":data}) : helper)))

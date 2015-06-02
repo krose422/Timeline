@@ -57,6 +57,7 @@ body {
       line-height: 1.2;
       margin-top: 0;
       font-size: 1em;
+      padding-right: 15px;
     }
   }
 
@@ -106,19 +107,14 @@ body {
       left: 7px;
     }
 
-    .icon {
-      display: inline-block;
-      font-size: 1.5em;
-      color: white;
-      position: absolute;
-      top: 5px;
-      left: 10px;
-
       i {
+        position: relative;
+        font-size: 1.4em;
         text-align: center;
         color: white;
+        top: 22%;
+        left: 26%;
       }
-    }
   }
 }
 
