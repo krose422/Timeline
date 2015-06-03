@@ -6,7 +6,7 @@ $darkblue: #3F96C7;
 $grey: #AABFCE;
 
 body {
-  min-width: 980px;
+  min-width: 1080px;
 }
 
 .container {
@@ -17,6 +17,8 @@ body {
 
 .all {
   position: relative;
+  padding: 0;
+
 }
 
 .all::before {
