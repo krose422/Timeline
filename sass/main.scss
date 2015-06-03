@@ -95,6 +95,7 @@ body {
       background-color: $lightestblue;
       border-radius: 50%;
       position: relative;
+      text-align: center;
     }
 
     .circleone {
@@ -105,6 +106,7 @@ body {
       position: absolute;
       top: 7px;
       left: 7px;
+      text-align: center;
     }
 
       i {
@@ -112,8 +114,8 @@ body {
         font-size: 1.4em;
         text-align: center;
         color: white;
-        top: 21%;
-        left: 24%;
+        top: 18%;
+        text-align: center;
       }
   }
 }
